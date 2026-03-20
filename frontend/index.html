@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diya Anil A C — Cyber Security</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!--Noise overlay-->
+  <div class="noise"></div>
+
+  <!--Custom Cursor-->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!--NAVBAR-->
+  <nav id="navbar">
+    <div class="nav-logo">D<span class="accent">.</span>A</div>
+    <ul class="nav-links">
+      <li><a href="#home"     class="nav-link active">Home</a></li>
+      <li><a href="#about"    class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact"  class="nav-link">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!--Mobile Menu-->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home"     class="mobile-link">Home</a></li>
+      <li><a href="#about"    class="mobile-link">About</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#contact"  class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!--SECTION 1—HOME-->
+  <section id="home">
+    <div class="grid-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tag">&lt; Cyber Security Student /&gt;</p>
+     <h1 class="hero-name">Diya Anil A C</h1>
+      <p class="hero-sub" id="typingText"></p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact"  class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-target="12">0</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="5">0</span>
+          <span class="stat-label">CTF Wins</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span>
+          <span class="stat-label">Certs</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="circle-ring ring-1"></div>
+      <div class="circle-ring ring-2"></div>
+      <div class="circle-ring ring-3"></div>
+      <div class="avatar-wrap">
+        <div class="avatar-initials">DA</div>
+        <div class="scan-line"></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!--SECTION 2—ABOUT-->
+  <section id="about">
+    <div class="section-label">01 — About</div>
+    <div class="about-grid">
+      <div class="about-left reveal">
+        <h2 class="section-title">Who Am I<span class="accent">?</span></h2>
+        <p class="about-bio">
+          I'm <strong>Diya Anil A C</strong>, a passionate Cyber Security student dedicated to understanding the digital battlefield — from network vulnerabilities to ethical hacking. I thrive on solving complex security challenges and building resilient systems.
+        </p>
+        <p class="about-bio">
+          My journey into cyber security started with curiosity about how systems break — and how to fix them. I specialize in penetration testing, threat analysis, and security architecture.
+        </p>
+        <div class="about-tags">
+          <span class="tag">Penetration Testing</span>
+          <span class="tag">Network Security</span>
+          <span class="tag">OSINT</span>
+          <span class="tag">CTF Challenges</span>
+          <span class="tag">Python</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Cryptography</span>
+          <span class="tag">Wireshark</span>
+        </div>
+      </div>
+      <div class="about-right reveal">
+        <div class="skills-box">
+          <p class="skills-title">// Technical Skills</p>
+          <div class="skill-item">
+            <span class="skill-name">Network Security</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            <span class="skill-pct">88%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Ethical Hacking</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            <span class="skill-pct">82%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Python / Scripting</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+            <span class="skill-pct">78%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Cryptography</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            <span class="skill-pct">70%</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Web App Security</span>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            <span class="skill-pct">75%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--SECTION 3—PROJECTS-->
+  <section id="projects">
+    <div class="section-label">02 — Projects</div>
+    <h2 class="section-title reveal">Selected Work<span class="accent">.</span></h2>
+    <p class="section-sub reveal">A snapshot of what I've been building and breaking.</p>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="card-header">
+          <span class="card-num">01</span>
+          <div class="card-links">
+            <a href="#" class="card-icon" title="GitHub">&#60;/&#62;</a>
+            <a href="#" class="card-icon" title="Live">↗</a>
+          </div>
+        </div>
+        <h3 class="card-title">Network Packet Analyzer</h3>
+        <p class="card-desc">A Python-based tool that captures and analyzes live network packets, detects anomalies, and flags potential intrusion attempts in real time.</p>
+        <div class="card-tags">
+          <span>Python</span><span>Scapy</span><span>Wireshark</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="card-header">
+          <span class="card-num">02</span>
+          <div class="card-links">
+            <a href="#" class="card-icon" title="GitHub">&#60;/&#62;</a>
+            <a href="#" class="card-icon" title="Live">↗</a>
+          </div>
+        </div>
+        <h3 class="card-title">Password Strength Auditor</h3>
+        <p class="card-desc">A web application that evaluates password entropy and advises users on creating resilient, crack-resistant credentials backed by a secure database.</p>
+        <div class="card-tags">
+          <span>Node.js</span><span>JavaScript</span><span>MySQL</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="card-header">
+          <span class="card-num">03</span>
+          <div class="card-links">
+            <a href="#" class="card-icon" title="GitHub">&#60;/&#62;</a>
+            <a href="#" class="card-icon" title="Live">↗</a>
+          </div>
+        </div>
+        <h3 class="card-title">CTF Challenge Platform</h3>
+        <p class="card-desc">Designed and hosted a mini Capture The Flag platform with crypto, web exploitation, and forensics challenges for college-level participants.</p>
+        <div class="card-tags">
+          <span>Linux</span><span>Docker</span><span>CTFd</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="card-header">
+          <span class="card-num">04</span>
+          <div class="card-links">
+            <a href="#" class="card-icon" title="GitHub">&#60;/&#62;</a>
+            <a href="#" class="card-icon" title="Live">↗</a>
+          </div>
+        </div>
+        <h3 class="card-title">Phishing Detection System</h3>
+        <p class="card-desc">ML-powered browser extension that detects phishing URLs using a trained classifier on domain features, WHOIS data, and visual similarity metrics.</p>
+        <div class="card-tags">
+          <span>Python</span><span>ML</span><span>Browser API</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--SECTION 4—CONTACT-->
+  <section id="contact">
+    <div class="section-label">03 — Contact</div>
+    <div class="contact-grid">
+      <div class="contact-left reveal">
+        <h2 class="section-title">Let's Connect<span class="accent">.</span></h2>
+        <p class="contact-desc">Have a project, collaboration, or just want to talk security? My inbox is always open.</p>
+        <div class="contact-info">
+          <div class="info-item">
+            <span class="info-icon">✉</span>
+            <span>diya.anil.ac@gmail.com</span>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">⌖</span>
+            <span>Kerala, India</span>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">◈</span>
+            <span>Open to internships &amp; CTF teams</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-right reveal">
+        <!--Form submits to Node.js backend POST /api/contact-->
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+              <span class="field-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              <span class="field-error" id="emailError"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+            <span class="field-error" id="subjectError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+            <span class="field-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span id="btnText">Send Message</span>
+            <span id="btnLoader" class="hidden">Sending…</span>
+          </button>
+          <div id="formStatus" class="form-status hidden"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer>
+    <p class="footer-text">Designed &amp; built by <span class="accent">Diya Anil A C</span> · Cyber Security Student</p>
+    <p class="footer-copy">© 2026 — All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
